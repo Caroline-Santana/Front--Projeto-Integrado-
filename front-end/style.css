@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+header{
+    position: fixed;
+    background-color: var(--header-background);
+    height: 140px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.links-container{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end; 
+    padding: 70px;
+}
+.links-container a{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+    color: #FFFF;
+}
+.links-container a:hover{
+    color: var(--main-yellow);
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+.home-container{
+    padding-top: 250px;
+    display: flex;
+    padding-left: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    background: url(./imgs/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+
+}
+.apresentation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    width: 50%;
+    height: 20%;
+}
+
+.welcome{
+    color: var(--second-brown);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.name-pizzaria{
+    font-family: 'Dancing Script', cursive;
+    padding-left: 260px;
+    font-weight: 700px;
+    width: 950px;
+    font-size: 150px;
+    color: var(--brown-color);
+}
+
+span{
+    color: var(--terceary-color);
+}
+.text-apresentation{
+    padding: 30px;
+    padding-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    text-align: left;
+    font-weight: 500px;
+    color: #3C2E21;
+    width: 1000px;
+    height: 490px;
+}
+
+.first-pizza{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 55%;
+    top: 550px;
+
+    /* display: flex;
+    background-color: aqua;
+    align-items: center;
+   padding-left: 800px; */
+}
+.peperonis{
+    display: flex;
+    background-color: aqua;
+
+}
